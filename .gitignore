@@ -1,0 +1,72 @@
+### General ###
+# Ignore all files with a .log, .tmp, or .swp extension.
+# Logs, temporary files, and Vim swap files are usually local and don't belong in the repo.
+*.log
+*.tmp
+*.swp
+*.env
+# Ignore directories that often contain compiled or temporary files.
+/build/
+/dist/
+/temp/
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+.project
+.classpath
+.settings/
+.history/
+.sublime-workspace
+.sublime-project
+
+# Coverage
+coverage/
+.coverage
+.nyc_output/
+coverage-final.json
+coverage-summary.json
+
+# Misc
+*.bak
+*.orig
+*.rej
+*.swo
+*.swn
+*.tmp
+*.temp
+*.log
+*.swp
+*.env
